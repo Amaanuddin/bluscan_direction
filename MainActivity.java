@@ -194,6 +194,7 @@ public class MainActivity extends Activity {
                     text = "rssi values @ 4 quadrant";
                 } else if (i == 12) {
                     text = "rssi for all directions taken";
+		    text= "amaan";
                 }
 
                 Toast.makeText(contex, text, duration).show();
@@ -205,7 +206,7 @@ public class MainActivity extends Activity {
                 i++;
                 Toast.makeText(contex, text, duration).show();
             }
-
+		
         }
     };
 
